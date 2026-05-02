@@ -47,7 +47,7 @@ def main():
         )
 
         print("Deriving API credentials...")
-        creds = client.create_or_derive_api_key()
+        creds = client.derive_api_key()
 
         print()
         print("✅ SUCCESS! Save these to your .env file:")
